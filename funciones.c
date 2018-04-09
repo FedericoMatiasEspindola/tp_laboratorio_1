@@ -1,28 +1,44 @@
 
-int sumaNum (int a, int b)
+float sumaNum (float a, float b)
 {
-    int resultado;
+    float resultado;
     resultado = a+b;
     return resultado;
 }
 
-int restaNum (int a, int b)
+float restaNum (float a, float b)
 {
-    int resultado;
+    float resultado;
     resultado = a-b;
     return resultado;
 }
 
-int divNum (int a, int b)
+float divNum (float a, float b)
 {
-    int resultado;
+    float resultado;
     resultado = a/b;
     return resultado;
 }
 
-int multNum (int a, int b)
+float multNum (float a, float b)
 {
-    int resultado;
+    float resultado;
     resultado = a*b;
+    return resultado;
+}
+
+
+
+float factnum(float a)
+{
+    float resultado;
+    if(a==1)
+    {
+        return 1;
+    }
+    else
+    {
+        resultado = a * factnum(a-1);
+    }
     return resultado;
 }

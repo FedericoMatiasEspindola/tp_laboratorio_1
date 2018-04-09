@@ -1,10 +1,11 @@
 #ifndef FUNCIONES_H_INCLUDED
 #define FUNCIONES_H_INCLUDED
 
-int sumaNum (int, int);
-int restNum (int, int);
-int divNum (int, int);
-int multNum (int, int);
+float sumaNum (float, float);
+float restNum (float, float);
+float divNum (float, float);
+float multNum (float, float);
+float factnum (float);
 
 
 #endif // FUNCIONES_H_INCLUDED
