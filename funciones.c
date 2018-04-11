@@ -1,25 +1,25 @@
-
+//suma
 float sumaNum (float a, float b)
 {
     float resultado;
     resultado = a+b;
     return resultado;
 }
-
+//resta
 float restaNum (float a, float b)
 {
     float resultado;
     resultado = a-b;
     return resultado;
 }
-
+//division
 float divNum (float a, float b)
 {
     float resultado;
     resultado = a/b;
     return resultado;
 }
-
+//multiplicacion
 float multNum (float a, float b)
 {
     float resultado;
@@ -28,10 +28,10 @@ float multNum (float a, float b)
 }
 
 
-
-float factnum(float a)
+//factorial
+int factnum(int a)
 {
-    float resultado;
+    int resultado;
     if(a==1)
     {
         return 1;

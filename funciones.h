@@ -5,7 +5,7 @@ float sumaNum (float, float);
 float restNum (float, float);
 float divNum (float, float);
 float multNum (float, float);
-float factnum (float);
+int factnum (int);
 
 
 #endif // FUNCIONES_H_INCLUDED
