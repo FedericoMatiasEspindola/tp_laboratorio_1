@@ -3,9 +3,6 @@
 #include "funciones.h"
 #include "funciones.c"
 
-
-
-
 int main()
 {
     system("color 0B");
@@ -19,7 +16,7 @@ int main()
     while(seguir=='s')
     {
         printf("***************************************** \n");
-        printf("*************CALCULADORA***************** \n");
+        printf("***************CALCULADORA*************** \n");
         printf("*****************************************\n");
         printf("1- Ingresar 1er operando \t (A=%.2f)\n", numOne);
         printf("2- Ingresar 2do operando \t (B=%.2f)\n", numTwo);
@@ -31,19 +28,19 @@ int main()
         printf("8- Calcular todas las operaciones\n");
         printf("9- Salir\n");
         printf("***************************************** \n");
+        printf("*******ESPINDOLA*MATIAS*FEDERICO********* \n");
         printf("***************************************** \n");
-
+        printf("Ingrese opcion deseada: ");
         scanf("%d",&opcion);
-
         switch(opcion)
         {
             case 1:
-                printf("ingrese primer numero: ");
+                printf("Ingrese primer operando: ");
                 scanf("%f", &numOne);
                 system("cls");
                 break;
             case 2:
-                printf("ingrese segundo numero: ");
+                printf("Ingrese segundo operando: ");
                 scanf("%f", &numTwo);
                 system("cls");
                 break;
@@ -62,7 +59,7 @@ int main()
             case 5:
                 if(numTwo==0)
                 {
-                    printf("error, no se puede dividir por cero, vuelva a ingresar los numeros\n");
+                    printf("Error, no se puede dividir por cero, vuelva a ingresar los numeros\n");
                     system("pause");
                     system("cls");
                 }
@@ -84,7 +81,7 @@ int main()
                 numThree=numOne;
                 if(numThree > 12)
                     {
-                        printf("ERROR. Numero demasiado grande para factorizar.\n");
+                        printf("Eroor, Numero demasiado grande para factorizar.\n");
                     }
                     else
                     {
@@ -96,7 +93,7 @@ int main()
                         {
                             if(numThree < 0)
                             {
-                                printf("ERROR. Reingrese el primer operando.\n");
+                                printf("Error, Reingrese el primer operando.\n");
                             }
 
                             else
@@ -153,7 +150,6 @@ int main()
                             }
                         }
                     }
-
                 system("pause");
                 system("cls");
                 break;
@@ -162,7 +158,6 @@ int main()
                 break;
         }
     }
-
     return 0;
 }
 

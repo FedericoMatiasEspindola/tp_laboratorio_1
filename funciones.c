@@ -26,8 +26,6 @@ float multNum (float a, float b)
     resultado = a*b;
     return resultado;
 }
-
-
 //factorial
 int factnum(int a)
 {

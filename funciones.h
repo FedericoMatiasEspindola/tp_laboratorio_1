@@ -7,5 +7,4 @@ float divNum (float, float);
 float multNum (float, float);
 int factnum (int);
 
-
 #endif // FUNCIONES_H_INCLUDED
