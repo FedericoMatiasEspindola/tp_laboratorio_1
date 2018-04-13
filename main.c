@@ -98,7 +98,7 @@ int main()
 
                             else
                             {
-                                printf("El factorial del primer operando es: %d\n" , factnum (numThree));
+                                printf("El factorial del primer operando es: %d\n" , factNum (numThree));
                             }
                         }
                     }
@@ -146,7 +146,7 @@ int main()
 
                             else
                             {
-                                printf("El factorial del primer operando es: %d\n" , factnum (numThree));
+                                printf("El factorial del primer operando es: %d\n" , factNum (numThree));
                             }
                         }
                     }
